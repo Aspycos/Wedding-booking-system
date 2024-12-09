@@ -1,0 +1,146 @@
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  
+  .image-gallery img {
+    width: 250px;
+    height: auto;
+    margin: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .image-gallery img {
+      width: 150px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .image-gallery img {
+      width: 100px;
+    }
+  }
+
+  /* Home page css code, so be careful  */
+
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 1  5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
+
+/* About page css code, so be careful  */
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.invitation {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.top-section {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.couple-section {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.details-section p {
+    margin-bottom: 10px;
+}
+
+.rsvp-section {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* ... rest of your CSS ... */
+
+#countdown {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Travel css code */
+
+/* ... rest of your CSS ... */
+
+.travel-section {
+    margin-top: 20px;
+}
+
+.map-container {
+    margin-bottom: 20px;
+}
+
+.flight-information {
+    margin-bottom: 20px;
+}
+
+#more-info {
+    margin-top: 10px;
+}
